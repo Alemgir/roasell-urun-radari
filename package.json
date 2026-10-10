@@ -8,7 +8,8 @@
     "dev": "concurrently -k -n api,web -c magenta,cyan \"node --watch server/index.js\" \"vite\"",
     "server": "node server/index.js",
     "build": "vite build",
-    "start": "npm run build && NODE_ENV=production node server/index.js"
+    "start": "npm run build && NODE_ENV=production node server/index.js",
+    "test": "node --test \"test/*.test.js\""
   },
   "dependencies": {
     "dotenv": "^17.4.2",
