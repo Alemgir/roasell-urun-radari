@@ -2,6 +2,7 @@
 
 Roasell **“Türkiye Pazarı — Trendyol Ürün Bulma ve Doğru Ürün Kriterleri”** dokümanındaki 6 ürün kriteri ve 7 adımlı süreci otomatikleştiren sistem. Trendyol’dan Apify ile ürün çeker, kriterlere göre puanlar, mağaza linklerini ve rakipleri çıkarır, tedarikçi iletişimini kolaylaştırır.
 
+[![CI](https://github.com/Alemgir/roasell-urun-radari/actions/workflows/ci.yml/badge.svg)](https://github.com/Alemgir/roasell-urun-radari/actions/workflows/ci.yml)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -49,6 +50,8 @@ npm run dev
 - API: http://localhost:5174
 
 Token'ı değiştirdikten sonra `npm run dev`'i yeniden başlatın. Token olmadan **Ayarlar → Demo verisi yükle** ile arayüzü deneyebilirsiniz.
+
+Testler: `npm test` (Node'un yerleşik test koşucusu; puanlama, metin eşleme ve veri normalizasyonu kapsanır).
 
 Üretim modu: `npm start` (arayüzü derleyip tek port üzerinden sunar).
 
